@@ -1,3 +1,4 @@
 import './style.css'
 
-const hello = 'hello world'
+const numberCoffee = 2
+const fullName = 'Chad Lada'
