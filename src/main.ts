@@ -10,23 +10,32 @@ const fullName = 'Chad Lada'
 console.log(`Hello ${fullName}, you drink ${numberCoffee} cups of coffee each day.. Wow!!`)
 
 // Create an variable that stores an object. Make the properties of the object fullName, luckyNumber , and favoriteMovies. Where fullname is your full name, luckyNumber is a number value of your favorite number, and favoriteMovies is an array of strings of a few of your top movies. NOTE: Try doing this using object literal: const aboutMe = { } and put the properties inside.
-const myObject = {
+const aboutMe = {
   fullName: fullName,
   luckyNumber: 23,
   favoriteMovies: ['The Shining', 'Superbad', 'Passion Of The Christ']
 }
 
-console.log(myObject)
+console.log(aboutMe)
 // Practice Getting Input From the User
 
 // Using window.prompt, Ask the user for their name and store it in a variable named userName.
+const userName = window.prompt('What is your name?')
 // Use console.log to show a greeting to the user, using their name.
+console.log(`Hello ${userName}`)
 // Converting String Input Into Numbers
 
 // Input two numbers from the user. Convert each resulting string from window.prompt to a number using Number. Save the first value in a variable named firstOperand and the second value in a variable named secondOperand.
 // Doing Math
+const numbOneString = window.prompt('Pick a number')
+const numbTwoString = window.prompt('Pick another number')
+
+const numbOne = Number(numbOneString)
+const numbTwo = Number(numbTwoString)
 
 // Add the operand variables from above and save the results in a variable named sum.
+const sum = numbOne + numbTwo
+console.log(`The sum of the two numbers is ${sum}`)
 // Subtract the secondOperand variable from the firstOperand variable and save the results in a variable named difference.
 // Multiply the operand variables and save the results in a variable named product.
 // Divide the firstOperand by the secondOperand and save the results in a variable named quotient.
