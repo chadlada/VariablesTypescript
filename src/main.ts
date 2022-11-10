@@ -35,12 +35,27 @@ const numbTwo = Number(numbTwoString)
 
 // Add the operand variables from above and save the results in a variable named sum.
 const sum = numbOne + numbTwo
-console.log(`The sum of the two numbers is ${sum}`)
+
+
 // Subtract the secondOperand variable from the firstOperand variable and save the results in a variable named difference.
+const difference = numbOne - numbTwo
+
 // Multiply the operand variables and save the results in a variable named product.
+const product = numbOne * numbTwo
+
 // Divide the firstOperand by the secondOperand and save the results in a variable named quotient.
+const quotient = numbOne / numbTwo
+
 // Find the remainder when one operand is divided by the other and save the results in a variable named remainder.
+const remainder = numbOne % numbTwo
+
 // Use console.log to present the user, in a meaningful way, each of the values for the sum, difference, quotient, product, and remainder variables. (e.g. perhaps one of your outputs is similar to If you add 4 and 5 you get 9 if 4 and 5 were the input)
+console.log(`The sum of the two numbers is ${sum}`)
+console.log(`The difference is: ${difference}`)
+console.log(`The product is: ${product}`)
+console.log(`The quotient is: ${quotient}`)
+console.log(`The remainder is: ${remainder}`)
+
 // Using Arrays
 
 // Use this page to generate an array of random numbers. NOTE: That format isn't ready for TypeScript. In your editor, you will need to format the collection of numbers as a TypeScript array.
